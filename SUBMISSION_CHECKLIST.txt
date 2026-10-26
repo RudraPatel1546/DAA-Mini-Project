@@ -1,0 +1,10 @@
+Before submission:
+[ ] Obtain faculty approval for the project topic.
+[ ] Replace sample campus locations/distances with your campus data if required.
+[ ] Run the program and capture screenshots of your own implementation.
+[ ] Test several source/destination pairs using both algorithms.
+[ ] Record actual results; do not invent execution times.
+[ ] Ensure both algorithms return the same shortest distance on tested cases.
+[ ] Add student names, roll numbers, institution, faculty guide, and date to report.
+[ ] Prepare slides and ensure every group member can explain the full project.
+[ ] Include source code, report, presentation, screenshots, test results, and references.

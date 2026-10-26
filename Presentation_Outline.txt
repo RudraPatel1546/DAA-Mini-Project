@@ -1,0 +1,54 @@
+DAA MINI PROJECT PRESENTATION
+Campus Navigation and Path-Finding System
+
+Slide 1 — Title
+Campus Navigation and Path-Finding System
+Design and Analysis of Algorithms | Team names / roll numbers
+
+Slide 2 — Problem Statement
+Visitors and students may struggle to find campus buildings.
+Goal: find a minimum-distance walking route between two locations.
+
+Slide 3 — Objectives
+Represent campus as a weighted graph; implement Dijkstra and A*;
+show route and distance; compare expanded nodes and execution time.
+
+Slide 4 — Graph Model
+Vertices = campus locations.
+Edges = walkways.
+Weights = walking distances in metres.
+The included graph uses illustrative sample data.
+
+Slide 5 — Dijkstra’s Algorithm
+Repeatedly select the closest unsettled vertex and relax its edges.
+Typical time: O((V + E) log V) with adjacency list and binary heap.
+Works with non-negative edge weights.
+
+Slide 6 — A* Search
+Uses f(n) = g(n) + h(n).
+g(n) = distance from start; h(n) = estimated distance to goal.
+Performance depends on heuristic; use an admissible heuristic for optimality.
+
+Slide 7 — System Architecture
+Location selection → graph search → predecessor reconstruction →
+route visualization → distance and performance results.
+
+Slide 8 — Demonstration
+Show start/destination selectors, route highlight, route list,
+total distance, nodes expanded, and execution time.
+
+Slide 9 — Testing and Comparison
+Run both algorithms on the same pairs.
+Record actual distance, expanded nodes, and timing.
+Do not present invented performance values.
+
+Slide 10 — Limitations and Future Work
+Sample map; no GPS or live closures.
+Future: real campus survey, accessible routing, blocked paths, GPS.
+
+Slide 11 — Conclusion
+The project demonstrates graph modelling, shortest-path algorithms,
+complexity analysis, implementation, and experimental comparison.
+
+Slide 12 — References and Q&A
+Dijkstra (1959); Hart, Nilsson & Raphael (1968); Python documentation.
